@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+}
+
+#main-img{
+    height: 60vh;
+    width:80%;
+    margin-left: 10%;
+
+}
+#main-img:hover{
+    opacity:0.9;      
+    
+}
+h3{
+margin-left: 26%;
+text-transform:capitalize;
+}
+.wel-psn{
+    font-size: x-large;
+    
+        /* position: absolute; */
+        margin-left: 4%;
+        text-align: center;
+        color:blue;
+        font-weight: 600;
+    /* margin-left: 108px !important; */
+
+}
+/* image for small screens */
+/* @media only screen and (mix-width:350px) and (max-width:1366px) {
+    .wel-psn{
+       margin-left: 10% !important;
+       text-align: center !important;
+    }
+  } */
+
+
+.ppt-doc:hover{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+}
+h5{
+    font-family: Sans-serif;
+    color:brown;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+}
+hr {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .launch{
+      color: brown;
+  }
+#start-net{
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* for youtube link */
+@media only screen and (min-width:360px) and (max-width : 1366px) {
+    /* mainheading top of page */
+    .wel-psn{
+        margin-left:2% !important;
+    }
+    
+    iframe,.columns{
+        height:40vh !important;
+        width:90% !important;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    .columns{
+        /* margin-left: 2px !important; */
+        margin-top:8px !important;
+        font-size: large!important;
+
+        /* margin-right: 0px; */
+    }
+    
+  }
+  /* .iframe-container{
+      position: relative;
+      widows: 100%;height:0;
+      padding-bottom: 56.25%;
+  }
+  .iframe-container iframe{
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  } */
+
+/* icons styling   */
+.fa {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px !important;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.2;
+      color:burlywood;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding-right: 30px !important;
+
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .icons{
+      margin-bottom:12px !important;
+  }
+  @media only screen and (min-width:360px) and (max-width : 1366px) {
+  .simple-btn{
+      padding-right: 3.5px !important;
+      padding-left: 3.5px;
+  }
+}
+/* adding scroll bar to the modal */
+/* .modal .modal-content{
+    overflow:hidden;
+    }
+    .modal-body{
+    overflow-y:scroll; 
+    to get scrollbar only for y axis
+    } */
+
+    .psn-start{
+        /* margin-left: 5px; */
+        color:purple;
+        font-weight: 700;
+        
+    }

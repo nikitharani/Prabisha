@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+}
+img{
+    height: 100%;
+    width:100%;
+}
+.fas{
+    color: black;
+}
+p{
+    margin-top: 3px;
+    font-size: large;
+    color:brown;
+    padding-left: -4px !important;
+}
+a.nav-link{
+   text-align: left !important;
+}
+h2{
+    color:green;
+}
+
+/* (max-width:) */
+
+@media only screen and (min-width: 280px) and (max-width:800px) {
+.cov-img{
+height:90%;
+width:90%;
+margin-bottom: 10px;
+}
+.soc-img{
+    height:90%;
+margin-bottom: 10px;
+
+}
+iframe{
+    width:100%;
+    
+}
+}
